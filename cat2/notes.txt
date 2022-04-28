@@ -1,0 +1,16 @@
+fputc - write one character to the file
+- returns the same character
+- EOF on faliure
+
+fputs - write character array to file
+
+FGETC - read one character from the file
+FGETS (char* <character array>, int <number of characters>, file_pointer) - you may specify the number of characters more than the number of characters in the file, the character array would be terminated with a null character ('\0')
+
+Use strlen(char* <character array>) - to calculate the length of the string OR loop through the character array until null character ('\0')
+
+#include <string.h>
+
+strcpy - takes 2 pointers (you may use it to append words in between a string)
+strcmp == 0 - to check if 2 strings are equal
+atoi - to convert string to int (from stdlib.h)
